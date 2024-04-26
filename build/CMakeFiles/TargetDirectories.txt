@@ -1,0 +1,13 @@
+/home/zch/桌面/mp_rpc/build/CMakeFiles/edit_cache.dir
+/home/zch/桌面/mp_rpc/build/CMakeFiles/rebuild_cache.dir
+/home/zch/桌面/mp_rpc/build/src/CMakeFiles/mprpc.dir
+/home/zch/桌面/mp_rpc/build/src/CMakeFiles/edit_cache.dir
+/home/zch/桌面/mp_rpc/build/src/CMakeFiles/rebuild_cache.dir
+/home/zch/桌面/mp_rpc/build/example/CMakeFiles/edit_cache.dir
+/home/zch/桌面/mp_rpc/build/example/CMakeFiles/rebuild_cache.dir
+/home/zch/桌面/mp_rpc/build/example/callee/CMakeFiles/provider.dir
+/home/zch/桌面/mp_rpc/build/example/callee/CMakeFiles/edit_cache.dir
+/home/zch/桌面/mp_rpc/build/example/callee/CMakeFiles/rebuild_cache.dir
+/home/zch/桌面/mp_rpc/build/example/caller/CMakeFiles/consumer.dir
+/home/zch/桌面/mp_rpc/build/example/caller/CMakeFiles/edit_cache.dir
+/home/zch/桌面/mp_rpc/build/example/caller/CMakeFiles/rebuild_cache.dir

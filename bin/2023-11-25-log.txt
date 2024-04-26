@@ -1,0 +1,12 @@
+16:34:13 =>[info] cccc
+16:34:13 =>[info] aaaa
+16:34:13 =>[info] service_name:FiendServiceRpc
+16:34:13 =>[info] method_name:GetFriendsList
+16:47:29 =>[info] cccc
+16:47:29 =>[info] aaaa
+16:47:29 =>[info] service_name:FiendServiceRpc
+16:47:29 =>[info] method_name:GetFriendsList
+16:57:58 =>[info] cccc
+16:57:58 =>[info] aaaa
+16:57:58 =>[info] service_name:FiendServiceRpc
+16:57:58 =>[info] method_name:GetFriendsList

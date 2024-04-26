@@ -1,0 +1,44 @@
+syntax = "proto3";
+
+package fixbug;
+
+option cc_generic_services = true;
+
+message ResultCode
+{
+    int32 errcode = 1; 
+    bytes errmsg = 2;
+}
+
+message LoginRequest
+{
+    bytes name = 1;
+    bytes pwd = 2;
+}
+
+message LoginResponse
+{
+    ResultCode result = 1;
+    bool sucess = 2;
+}
+
+message RegisterRequest
+{
+    uint32 id = 1;
+    bytes name = 2;
+    bytes pwd = 3;
+}
+
+message RegisterResponse
+{
+    ResultCode result = 1;
+    bool sucess = 2;
+}
+
+service UserServiceRpc
+{
+    //疑问：句首的rpc关键字是什么意思  定义一个rpc方法login，是对rpc方法的描述，但protobuf并没有实现rpc功能
+    //protobuf只实现了对rpc方法的描述
+    rpc Login(LoginRequest) returns(LoginResponse);//定义rpc方法，该方法在userservice.cc的第33行将被重写
+    rpc Register(RegisterRequest) returns(RegisterResponse);
+}
